@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+.container,a{
+	position: static;
+}
+
+
+/*Pa*/
+@media only screen and (min-width:320px) and (max-width:479px) {
+    body{
+		background-color: rgb(90, 199, 90);
+	}
+}
+/*Tables*/
+@media only screen and (min-width:480px) and (max-width:767px) {
+    body{
+		margin:1em 2em;	
+        background-color: rgb(170, 80, 206);
+	}
+}
+@media only screen and (min-width:768px) and (max-width:979px) {
+    body{
+		margin:1em 2em;	
+        background-color: rgb(96, 102, 6);
+	}
+    
+}
+
+/*Pantallas medianas*/
+@media only screen and (min-width:980px) and (max-width:1023px) {
+    body{
+		margin:1em 2em;	
+        background-color: rgb(199, 90, 90);
+	}
+}
+
+/*Pantallas medianas*/
+@media only screen and (min-width:1024px) and (max-width:1199px) {
+    
+}
+/*Pantallas grandes*/
+@media only screen and (min-width:1200px) and (max-width:1199px) {
+    
+}
